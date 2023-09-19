@@ -13,5 +13,8 @@ lint:
 
 deploy:
 	# deploy goes here
+
+run:
+	python3 main.py
 		
 all: install lint format test 
